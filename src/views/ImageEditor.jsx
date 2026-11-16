@@ -139,7 +139,7 @@ const ImageEditor = () => {
         const textX = 303;
 
         // Name
-        const nameFontSize = 35;
+        const nameFontSize = 33;
 
         ctx.font = `bold ${nameFontSize}px 'Franklin Gothic Demi', Arial, sans-serif`;
 
@@ -149,7 +149,7 @@ const ImageEditor = () => {
 
         // Designation (optional)
         if (designation.trim()) {
-          const designationFontSize = 24;
+          const designationFontSize = 22;
 
           ctx.font = `${designationFontSize}px Arial, sans-serif`;
           ctx.fillText(designation.trim(), textX, 1050);
