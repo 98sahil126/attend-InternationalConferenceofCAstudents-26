@@ -149,7 +149,7 @@ const ImageEditor = () => {
 
         // Designation (optional)
         if (designation.trim()) {
-          const designationFontSize = 22;
+          const designationFontSize = 24;
 
           ctx.font = `${designationFontSize}px Arial, sans-serif`;
           ctx.fillText(designation.trim(), textX, 1050);
